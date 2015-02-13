@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<!--[if IE 9]><html class="lt-ie10" lang="en" > <![endif]-->
+<html lang="en">
+  <head>
+    <meta charset='utf-8' />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Lexie Leigh Wilson's site." />
+    <!-- SITE ICON -->
+    <!-- <link rel="icon" type="image/ico" href="img/favicon.ico"> -->
+    <!-- NORMALIZE -->
+    <link href="css/normalize.css" rel="stylesheet">
+    <!-- ANIMATE CSS -->
+    <link href="css/animate.css" rel="stylesheet">
+    <!-- MAIN STYLESHEET -->
+    <link rel="stylesheet" type="text/css" media="screen" href="css/app.css">
+    <!-- FONT AWSOME -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <!-- FLEXSLIDER -->
+    <link href="css/flexslider.css" rel="stylesheet" >
+    <!-- JQUERY JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/jquery.flexslider-min.js"></script>
+    <script src="js/vendor/jquery.flexslider.js"></script>
+    <!-- BOOTSTRAP JS -->
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <!-- LO DASH JS -->
+    <script src="js/vendor/lodash.js"></script>
+    <!-- MAIN JS -->
+    <script src="js/source/main.js"></script>
+    <!-- MODERNIZR -->
+    <script src="js/vendor/modernizr.js"></script>
+  </head>
+  <body>
+    <div class="row">
+      <div class="col-md-12">
+        <nav class="navbar navbar-default">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#"><img id="awry-logo" src="img/logo-black.png"></a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav">
+
+                <li><a id="music-link" class="menu-links hvr-fade" href="#" data-showdiv="music-content">Music</a></li>
+                <li><a id="video-link" class="menu-links hvr-fade" href="#" data-showdiv="video-content">Video</a></li>
+                <li><a id="photo-link" class="menu-links hvr-fade" href="#" data-showdiv="photo-content">Photos</a></li>
+                <li><a id="bio-link" class="menu-links hvr-fade" href="#" data-showdiv="bio-content">Bio</a></li>
+                <li><a id="contact-link" class="menu-links hvr-fade" href="#" data-showdiv="contact-content">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <div>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="container">
+            <div class="flexslider">
+              <ul class="slides">
+                <li class="slide-img slide-one">
+                <a class="menu-links hvr-fade slide-links" href="#" data-showdiv="music-content">
+                  <div class="caption">
+                    <h2>Music</h2>
+                  </div>
+                </a>
+                </li>
+                <li class="slide-img slide-two">
+                  <a class="menu-links hvr-fade slide-links" href="#" data-showdiv="video-content">
+                    <div class="caption">
+                      <h2>Video</h2>
+                    </div>
+                  </a>
+                </li>
+                <li class="slide-img slide-three">
+                  <a class="menu-links hvr-fade slide-links" href="#" data-showdiv="photo-content">
+                    <div class="caption">
+                      <h2>Photos</h2>
+                    </div>
+                  </a>
+                </li>
+                <li class="slide-img slide-four">
+                  <a class="menu-links hvr-fade slide-links" href="#" data-showdiv="bio-content">
+                    <div class="caption">
+                      <h2>Bio</h2>
+                    </div>
+                  </a>
+                </li>
+                <li class="slide-img slide-five">
+                  <a class="menu-links hvr-fade slide-links" href="#" data-showdiv="contact-content">
+                    <div class="caption">
+                      <h2>Contact</h2>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          <div class="content-container">
+            <div class="col-md-1"></div>
+            <div id="music-content" class="content col-md-10">
+              <h1>Music Content</h1>
+            </div>
+            <div id="video-content" class="content col-md-10">
+              <h1>Video Content</h1>
+            </div>
+            <div id="photo-content" class="content col-md-10">
+              <!-- photos injected here -->
+            </div>
+            <div id="bio-content" class="content col-md-10">
+              <img id="about-us-logo" src="img/logo-black.png">
+              <p>A//WRY is a band started by two best friends from New Orleans (Lexie Wilson and Mike Barreiro). With influences from 90’s grunge to modern revival, their writing style is a new refreshing take on old styles. The band formed in late 2014 when vocalist Lexie Wilson, decided to ditch the solo act and reach for other members to help create a full sound. Mike Barreiro was the first she reached out to. Together they started creating YouTube covers just to test the waters as to what they could do together. The instant mesh was incredible. Within the first week of writing together, the two created their first single Express. The band is currently searching for the remaining members. Until then, check out their acoustic sets around Nashville for a look into what this new and coming band can do. </p>
+              <div class="selfies">
+                <!-- <img src=""><p></p> -->
+              </div>
+            </div>
+            <div id="contact-content" class="content col-md-10">
+              <h1>Contact Content</h1>
+            </div>
+            <div class="col-md-1"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <small>Copyright © 2015 A//wry</small>
+    </footer>
+
+
+  </body>
+</html>
