@@ -54,6 +54,83 @@ p {
   margin-bottom: 40px;
 }
 
+
+/*=-=-=-=-=-=-= CONTACT PAGE -=-=-=-=-=-=-*/
+
+.MikeyBee{
+  width: 100%;
+  height: 500px;
+  /*border: 1px solid #312929;*/
+}
+
+.pictureContain00{
+  height: 250px;
+  width : 50%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 50px;
+  border-radius: 100%;
+  background-image: url('../img/mike2Black&White.jpg');
+  background-size: 100% 100%;
+}
+
+.overlay{
+  background-image: url('../img/mike2.jpg');
+  background-size: 100% 100%;
+  text-align:center;
+  padding:45px 0 66px 0;
+  opacity:0;
+  height: 250px;
+  width: 100%;
+  border-radius: 100%;
+  -webkit-transition: opacity .25s ease;
+  -moz-transition: opacity .25s ease;
+}
+
+.pictureContain00:hover .overlay {
+  opacity:1;
+}
+
+.LexieWeeWee{
+  width: 100%;
+  height: 500px;
+}
+
+.pictureContain01{
+  height: 250px;
+  width : 50%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 50px;
+  border-radius: 100%;
+  background-image: url('../img/lexie2Black&White.JPG');
+  background-size: 100% 100%;
+}
+
+.overlay1{
+  background-image: url('../img/lexie2.JPG');
+  background-size: 100% 100%;
+  text-align:center;
+  padding:45px 0 66px 0;
+  opacity:0;
+  height: 250px;
+  width: 100%;
+  border-radius: 100%;
+  -webkit-transition: opacity .25s ease;
+  -moz-transition: opacity .25s ease;
+}
+
+.pictureContain01:hover .overlay1 {
+  opacity:1;
+}
+
+.pContact{
+  margin: 15px;
+}
+
+
 h1{
   text-align: center;
 }
