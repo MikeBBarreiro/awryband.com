@@ -8,6 +8,10 @@
     $('.flexslider').flexslider();
     navLinks();
     initYoutubeVideos();
+
+    // $("a").click(function(){
+    //   $('.navClick').addClass('hvr-shrink');
+    // });
   }
 
   function navLinks(){
@@ -40,7 +44,7 @@
       $.getJSON(ajaxURL, function(data){
            var htmlString = "";
 
-          $.each(data.data.items, function(i,item){      
+          $.each(data.data.items, function(i,item){
               htmlString += '<div class="col-md-6"><iframe class="videos" type="text/html" width="640" height="390" src="http://www.youtube.com/embed/';
               htmlString += item.id;
               htmlString += '?autoplay=0" frameborder="0"></iframe></div>';
