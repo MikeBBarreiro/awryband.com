@@ -127,7 +127,41 @@ p {
 }
 
 .pContact{
-  margin: 15px;
+  margin: 10px;
+  text-align: center;
+}
+
+.SocialMediaButtons{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 130px;
+}
+
+.SMB:hover{
+  box-shadow: 0px 0px 20px white;
+  border-radius: 100%;
+}
+
+@media screen and (max-width: 400px){
+  .pictureContain00{
+    height: 170px;
+  }
+}
+@media screen and (max-width: 400px){
+  .pictureContain01{
+    height: 170px;
+  }
+}
+@media screen and (max-width: 400px){
+  .overlay{
+    height: 170px;
+  }
+}
+@media screen and (max-width: 400px){
+  .overlay1{
+    height: 170px;
+  }
 }
 
 
